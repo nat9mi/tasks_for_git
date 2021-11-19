@@ -9,7 +9,7 @@ describe('getPokerHand', () => {
         assert.equal(actual, 'Покер');
     });
 
-    // Напишите тесты
+    // Напишите тесты на функцию getPokerHand
     it('Summa = 5 ', () => {
         let numberOne = 2;
         let numberTwo = 3;
