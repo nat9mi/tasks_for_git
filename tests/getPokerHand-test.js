@@ -14,12 +14,12 @@ describe('getPokerHand', () => {
         let numberOne = 2;
         let numberTwo = 3;
         let text = "Summa = ";
-        //Функция сложения двух чисел и возвращение строки с результатом
+        
         function summa(numberOne, numberTwo){
         let result = text + (numberOne + numberTwo);
         return result;
         }
-        //Сравнение результата функции с ожидаемым
+      
         assert.equal(summa(numberOne, numberTwo), "Summa = 5");
         });
 });
