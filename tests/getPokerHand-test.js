@@ -10,16 +10,4 @@ describe('getPokerHand', () => {
     });
 
     // Напишите тесты
-    it('Summa = 5 ', () => {
-        let numberOne = 2;
-        let numberTwo = 3;
-        let text = "Summa = ";
-        
-        function summa(numberOne, numberTwo){
-        let result = text + (numberOne + numberTwo);
-        return result;
-        }
-      
-        assert.equal(summa(numberOne, numberTwo), "Summa = 5");
-        });
 });
