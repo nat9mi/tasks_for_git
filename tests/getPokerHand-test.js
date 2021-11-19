@@ -21,5 +21,6 @@ describe('getPokerHand', () => {
         }
         //Сравнение результата функции с ожидаемым
         assert.equal(summa(numberOne, numberTwo), "Summa = 5");
+        //А это просто изменение для коммита
         });
 });
