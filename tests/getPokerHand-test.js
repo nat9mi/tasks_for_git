@@ -9,5 +9,16 @@ describe('getPokerHand', () => {
         assert.equal(actual, 'Покер');
     });
 
-    // Напишите тесты
+// Проверяем что все элементы являются числом
+
+    it('should return `Оne or more elements are not a number` for [1, 1, 1, 1, a]', () => {
+        const actual = getPokerHand([1, 1, 1, 1, 'a']);
+
+        assert.equal(actual, 'Оne or more elements are not a number');
+    });
+
+    it("Test Nadezhda"), () => {
+        var i = "test";
+        assert.equal("test1", i);
+    }
 });
