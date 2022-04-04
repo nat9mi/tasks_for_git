@@ -16,4 +16,9 @@ describe('getPokerHand', () => {
 
         assert.equal(actual, 'Оne or more elements are not a number');
     });
+
+    it("Test Nadezhda"), () => {
+        var i = "test";
+        assert.equal("test1", i);
+    }
 });
