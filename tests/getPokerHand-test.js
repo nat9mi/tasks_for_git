@@ -22,5 +22,3 @@ describe('getPokerHand', () => {
         assert.equal("test1", i);
     }
 });
-
-// тест
