@@ -21,4 +21,8 @@ describe('getPokerHand', () => {
         var i = "test";
         assert.equal("test1", i);
     }
+    it("Test me"), () => {
+        var i = "test";
+        assert.equal("test1", i);
+    }
 });
